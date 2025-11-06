@@ -1,7 +1,6 @@
 import subprocess
 
 def main():
-
     entrada = input("Entre com uma feature: ")
     feature(entrada)
 
