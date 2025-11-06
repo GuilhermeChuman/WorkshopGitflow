@@ -1,8 +1,12 @@
-def main(){
+import subprocess
 
+def main():
 
+    entrada = input("Entre com uma feature: ")
+    feature(entrada)
 
-    print('Fazendo uma modificação')
-    print('Incluindo uma feature nova - Modificação Nova')
+def feature(featureIndex):
+    
+    subprocess.run(["python", './WorkshopGitflow/'+featureIndex+".py"])
 
-}
+main()
