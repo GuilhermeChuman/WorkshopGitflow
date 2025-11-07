@@ -6,6 +6,6 @@ def main():
 
 def feature(featureIndex):
     
-    subprocess.run(["python", './WorkshopGitflow/'+featureIndex+".py"])
+    subprocess.run(["python", featureIndex+".py"])
 
 main()
